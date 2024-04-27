@@ -1,0 +1,30 @@
+.AboutHobby {
+  background: linear-gradient(90deg, #F6CED8 5%, #F5A9BC 70%);
+  padding: 5%;  
+}
+
+.AboutHobby .Container {
+  display: flex;
+  height: 900px;
+}
+
+.AboutHobby .Container .Text{
+  width: 47%;
+  margin-right: 3%;
+}
+
+.AboutHobby .Container .Text h2{
+  font-weight: 900;
+  font-size: 46px;
+}
+
+.AboutHobby .Container .videoContainer {
+  display: flex;
+  justify-content: space-around; /* 비디오 섹션 간의 공간을 균등하게 배분 */
+}
+
+.AboutHobby .Container .video, .AboutHobby .Container .videomusic {
+  width: 48%; /* 각 비디오 섹션의 너비를 48%로 설정하여 공간 배분 */
+  
+}
+
