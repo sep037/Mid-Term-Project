@@ -1,0 +1,46 @@
+.AboutDeveloper {
+  background: linear-gradient(90deg, #F6CED8 5%, #F5A9BC 70%);
+  padding: 5%;  
+}
+
+.AboutDeveloper .Container {
+  display: flex;
+  height: 900px;
+}
+
+.AboutDeveloper .Container .Text{
+  width: 47%;
+  margin-left: 3%;
+}
+
+.AboutDeveloper .Container .Text h2{
+  font-weight: 900;
+  font-size: 46px;
+}
+
+.AboutDeveloper .Container .Photo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.AboutDeveloper .Container .Photo .Profile{
+  height: 480px;
+}
+
+.apple {
+  width : 600px;
+  display: block;
+  position: relative;
+  bottom: 840px;
+  animation: slide 7s infinite alternate;
+}
+
+@keyframes slide {
+  0%, 100% {
+    left: 650px;  /* 시작점과 끝점 */
+  }
+  50% {
+    left: 1100px;  /* 중간 지점 */
+  }
+}
