@@ -1,0 +1,43 @@
+.AboutMe {
+  background: linear-gradient(90deg, #F6CED8 5%, #F5A9BC 70%);;
+  padding: 5%;  
+}
+
+.AboutMe .Container {
+  display: flex;
+  height: 900px;
+}
+
+.AboutMe .Container .Text{
+  width: 60%;
+  margin-left: 3%;
+}
+
+.AboutMe .Container .Text h2{
+  font-weight: 900;
+  font-size: 46px;
+}
+
+.AboutMe .Container .Photo {
+  
+}
+
+.AboutMe .Container .Photo .Profile{
+  height: 480px;
+}
+
+@keyframes blink {
+  00%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.me {
+  width : 350px;
+  height: 350px;
+  margin: auto;
+  position: relative;
+  bottom: 800px;
+  left: 305px;
+  border-radius: 30px;
+  animation: blink 3s infinite;
+  display: flex;
+}
