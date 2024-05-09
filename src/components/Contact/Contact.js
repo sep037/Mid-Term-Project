@@ -1,4 +1,4 @@
-import {FaYoutube, FaInstagramSquare, FaGithub, FaLinkedin, FaMailBulk} from "react-icons/fa"
+import {FaInstagramSquare, FaGithub,FaMailBulk} from "react-icons/fa"
 import classes from './Contact.module.css'
 
 const handleURL = (url) => {
